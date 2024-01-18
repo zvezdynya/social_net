@@ -1,0 +1,42 @@
+.btn {
+    background-color: #000;
+    color: #f8a415;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+textarea {
+    border-radius: 10px;
+    width: 40%;
+    max-height: 100px;
+    padding: 20px;
+    background-color: #f99f05;
+    border: none;
+}
+
+textarea:focus {
+    outline: 1px solid #000;
+    width: 60%;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.posts h2 {
+    font-weight: bold;
+    margin: 15px;
+}
+
+.posts h3 {
+    font-weight: bold;
+    margin: 15px;
+}
+
+.write_post {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}

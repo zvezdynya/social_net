@@ -1,24 +1,23 @@
 .profile {
     grid-area: main;
-    background-color: #f8a415;
+    background-color: #f8a515c9;
 }
 
-.profile-top-img {
+.profile_top_img {
     width: 100%;
     height: 150px;
-
 }
 
-.profile-person-info {
-  /* height: 400px; */
+.profile_person_info {
+    padding: 10px 20px;
 }
 
-.profile-info-avatar {
+.profile_person_info img {
     width: 150px;
     height: 215px;
 }
 
-.profile-person-info {
+.profile_person_info {
     display: flex;
     flex-direction: row;
 }
