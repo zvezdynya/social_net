@@ -1,0 +1,24 @@
+.profile {
+    grid-area: main;
+    background-color: #f8a415;
+}
+
+.profile-top-img {
+    width: 100%;
+    height: 150px;
+
+}
+
+.profile-person-info {
+  /* height: 400px; */
+}
+
+.profile-info-avatar {
+    width: 150px;
+    height: 215px;
+}
+
+.profile-person-info {
+    display: flex;
+    flex-direction: row;
+}

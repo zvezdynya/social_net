@@ -1,0 +1,11 @@
+.header {
+    grid-area: header;
+    width: 100%;
+    justify-content: start;
+    background-color: #000;
+}
+
+.header img {
+    width: 150px;
+    height: 60px;
+}
