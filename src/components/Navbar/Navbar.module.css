@@ -4,9 +4,17 @@
     padding: 20px 5px;
 }
 
-.nav div {
+.item {
     margin: 15px 15px;
     font-size: 22px;
-    color: #f8a415;
     font-weight: bold;
+}
+
+.item a {
+    color: #f8a415;
+    text-decoration: none;
+}
+
+a.active {
+    color:gold;
 }

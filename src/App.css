@@ -9,3 +9,8 @@
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 }
+
+.profile {
+  grid-area: main;
+  background-color: #f8a515c9;
+}
