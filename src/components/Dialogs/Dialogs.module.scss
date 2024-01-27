@@ -1,3 +1,25 @@
 .class {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
     border: 1px solid black;
+}
+
+.dialogs_items {
+    grid-column: 1/2;
+
+    .dialog {
+    }
+    
+    .active {
+        color: gold;
+    }
+
+}
+
+.messages {
+    grid-column: 2/3;
+
+    .message {
+
+    }
 }
