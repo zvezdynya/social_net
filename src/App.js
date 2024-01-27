@@ -16,11 +16,11 @@ const App = () => {
         <Nav />
         <main className='profile'>
           <Routes>
-            <Route path="/profile" 
+            <Route path="/profile/" 
             element={<Profile />}/>
           </Routes>
           <Routes>
-            <Route path="/dialogs" 
+            <Route path="/dialogs/*" 
             element={<Dialogs />}/>
           </Routes>
           <Routes>
