@@ -1,17 +1,10 @@
 import React from 'react';
-<<<<<<< HEAD
-import styles from './Dialogs.module.css';
-=======
 import { NavLink } from 'react-router-dom';
 import styles from './Dialogs.module.scss';
->>>>>>> 0f1169b (added some dialogs + dialogs url)
 
 const Dialogs = () => {
     return (
         <>
-<<<<<<< HEAD
-            <div className={styles.class}>Dialogs</div>
-=======
             <div className={styles.class}>Dialogs
                 <div className={styles.dialogs_items}>
                     <div className={`${styles.dialog} ${styles.active}`}>
@@ -33,7 +26,6 @@ const Dialogs = () => {
                     <div className={styles.message}>How is your it-kamasutra?</div>
                 </div>
             </div>
->>>>>>> 0f1169b (added some dialogs + dialogs url)
         </>
     );
 }
